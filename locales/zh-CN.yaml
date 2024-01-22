@@ -1,0 +1,217 @@
+common:
+  enter: 进入
+  detail: 详情
+  name: 名称
+  description: 描述
+  price: 价格
+  balance: 账户余额
+  action: 操作
+  subscribe: 订阅
+  cover: 封面
+  submit: 提交
+
+  verified: 已验证
+  status: 状态
+  "message verified": 消息已验证
+  yay: 好
+  "pub key": 公钥
+  sig: 签名
+
+  loadmore: 加载更多
+
+  transaction: 交易
+  "wait deploy status": 等待部署结果
+  "wait submit status": 等待提交结果
+
+  "pick a site": 选择一个 Site
+  "need key tips": 请提供你的私钥，用以建立安全通信
+  connect: 连接钱包
+  disconnect: 断开连接钱包
+  update: 更新
+  "public key": nostr公钥
+  "wallet address": 钱包地址
+  "input private key": 请输入私钥
+  "input private key here": 在此处输入私钥
+
+  on: 开启
+  off: 关闭
+  "type here": 在此输入
+
+  port: 端口
+
+nav:
+  welcome: 首页
+  market: 市场
+  container: 容器
+  "service mesh": 服务网格
+  serverless: 函数计算
+  "api market": API 市场
+
+  dashboard: 看板
+  services: 服务列表
+  fuse: 服务熔断
+  "rate limit": 服务限流
+  logs: 服务日志
+
+  deployments: Deployments
+  pods: Pods
+  nodes: Nodes
+
+  hosts: 主机列表
+  providers: Provider列表
+  actors: Actor列表
+  "providers market": Provider市场
+  "actors market": Actor市场
+
+welcome:
+  description: CloudDeploy构建web2到web3的云计算DePIN系统，帮助Web2应用快速实现Web3转型。CloudDeploy提供计算和服务操作层，以及应用DAO聚合层，帮助Web2应用快速实现去中心化和Web3化。
+  build: 我们构建了
+  build1: 云原生预言机
+  build2: 应用数字身份
+  build3: 函数计算
+  build4: 云原生基础设施安全
+  start: 现在开始
+  thanks: 特别感谢
+
+  subtitle: 云原生预言机可信控制系统
+  subdesc: 这是一个针对云原生应用的去中心化和可信合约控制系统，采用了零信任安全结构。它结合了链上和链下预言机，以确保数字身份的安全性。
+
+market:
+  "api market": API 市场
+  "new-provider": 成为 API 供应商
+  "apis providered": 提供的 API
+  "per request": 每次请求
+  "new api": 发布新的 API
+  "copy api key": 赋值 API 密钥
+
+  method: 方法
+  time: 次数
+  "New Market": 创建新市场
+  image: 图片
+  "User Join Fields Configuration": 用户自定义字段配置
+  add: 添加
+  remove: 删除
+  "My Info in": 我的信息
+
+container:
+  "new deployment": 创建 Deployment
+  "by contract": 由智能合约驱动
+  ready: 已就绪
+  total: 总计
+  labels: 标签
+  "paste yaml": 在此处填写 YAML
+
+  "new pod": 新的 Pod
+  monitor: 监控
+  information: 信息
+  "loading pod status": 加载 Pod 状态
+  running: 运行中
+  pending: 等待中
+  failed: 已失败
+  succeeded: 已成功
+  unknown: 未知
+  "pod monitor": Pod 监控
+  usage: 使用量
+  memory: 内存
+  "Pod Net Bytes Transmitted": Pod 网络字节传输
+  "Pod Net Bytes Received": Pod 网络字节接收
+
+  start: 开始
+  stop: 停止
+  role: 角色
+
+mesh:
+  "current site": 当前 Site
+  location: 位置
+  "services this site has": 该 Site 拥有的服务数
+  total: 总计
+  current: 当前
+  reachable: 可访问
+  unreachable: 失联
+  servicesCount: 服务数
+
+  metadata: 元数据
+  security: 安全控制
+  manage: 管理
+  "security control": 安全控制状态
+  "listen mode": 监听模式
+  enabled: 已启用
+  disabled: 已禁用
+  searchName: 输入服务名称搜索
+
+  service: 服务
+  fuse: 服务熔断
+  "new fuse rule": 新的熔断规则
+  rule: 规则
+  "child service": 下游服务
+  "rule type": 规则类型
+  target: 目标
+  "max requests": 最大请求数
+  interval: 间隔
+  "error percent": 错误率阈值
+  "serial error numbers": 连续错误次数阈值
+  "open timeout": 请求超时
+  "Pick your fuse type": 选择熔断类型
+  "Consecutive Error Fuse": 连续错误次数达到阈值熔断
+  "Error Rate Fuse": 错误率达到固定百分比熔断
+  "Consecutive Error or Error Rate Fuse": 连续错误次数或错误率达到阈值熔断
+  "Consecutive Error and Error Rate Fuse": 连续错误次数和错误率同时达到阈值熔断
+  "Error Percent Threshold": 错误率阈值
+  "Constant Error Times Threshold": 连续错误次数阈值
+  "The number of requests allowed to run when the fuse is half open": 熔断器半开时允许运行的请求数量
+  "Clear cycle when the fuse is in the closed state": 熔断器处于关闭状态时的清除周期 (秒)
+  "Fuse half-open trigger time": 熔断器半开触发时间 (秒)
+  "Request timeout period": 请求超时时间 (秒)
+  "Fuse granularity": 熔断粒度
+  "Pick your fuse granularity": 选择熔断粒度
+  "Pick your fuse status": 选择熔断状态
+
+  "new rate limit rule": 新的限流规则
+  "Server Rate Limit": 服务器限流
+  "Max Count in Duration": 周期内限流次数
+  "Sample Duration": 采样周期（秒）
+  "Enabled this rule": 启用这个规则
+  "Pick your rate limit status": 选择限流状态
+
+  "service monitor": 服务监控
+
+  # mesh logs section
+  "Type your service id here": 输入服务识别号
+  "Last 5 minutes": 过去 5 分钟
+  "Last 30 minutes": 过去 30 分钟
+  "Last 1 hour": 过去 1 小时
+  Service: 服务
+  Message: 日志内容
+  Time: 时间
+
+wasm:
+  Information: 信息
+  arch: 架构
+  os: 操作系统
+  os-family: 操作系统族
+  "More Information": 更多信息
+
+  "Expose Http": 暴露HTTP
+  "Call Function": 调用函数
+  "Type your request path here": 在此处输入请求路径
+  "Type your request data": 在此处输入请求数据
+  "Request ID": 请求ID
+  Result: 结果
+
+  "New Provider": 创建Provider
+  Smithy: Smithy接口定义
+  Version: 版本
+  Capabilities: 能力声明
+
+  "New Actor": 创建Actor
+
+tips:
+  title: 你好
+  description: 我们使用 MetaMask 来链接区块链，请先安装 MetaMask
+  btn1: 去安装
+  btn2: 关闭弹窗
+user:
+  "modal title": 加入 CloudDeploy
+  "modal description": 点击加入 CloudDeploy 后，首先您需要进行签名用于和服务器建立安全通信通道，其次平台会为你生成用户信息，用于后续的资源创建和管理
+  "join now": 现在加入
+  cancelSign: 请完成签名，用于和服务器建立安全通信通道

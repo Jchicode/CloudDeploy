@@ -1,0 +1,15 @@
+{
+  "Version": "0.0.1",
+  "Title": "CloudDeploy",
+  "Theme": "light",
+  "Relay": [
+    {
+      "name": "gw106",
+      "url": "wss://nostr.gw106.oneitfarm.com",
+      "lat": 1.2929,
+      "long": 103.8547,
+      "city": "Singapore",
+      "flag": "twemoji:flag-singapore"
+    }
+  ]
+}
